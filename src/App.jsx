@@ -8,7 +8,7 @@ function App() {
   const [editText, setEditText] = useState("");
   const [isEdit, setIsEdit] = useState(null);
   return (
-    <div className="p-10 w-1/2 mx-auto shadow-2xl min-h-dvh h-[100%]">
+    <div className="mt-10 p-10 w-full lg:w-1/2 mx-auto shadow-2xl h-[100%] max-lg:shadow-none">
       <h1 className="font-bold text-4xl text-center mb-5 text-amber-900">To Do List</h1>
       <input
         type="text"
